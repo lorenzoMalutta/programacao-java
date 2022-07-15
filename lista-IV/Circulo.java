@@ -1,6 +1,6 @@
 public class Circulo{
   private Double raio;
-  private Integer ponto;
+  private Ponto ponto;
   private Double centro;
   
   public Circulo(){
@@ -32,7 +32,7 @@ public class Circulo{
     return ponto;
   }
 
-  public void setPonto(Integer ponto) {
+  public void setPonto(Ponto ponto) {
     this.ponto = ponto;
   }
  
