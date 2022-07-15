@@ -1,4 +1,4 @@
-public class Gerente{
+public class Gerente extends Funcionario{
     private Double salarioMensal;
     
     public Gerente(Double salarioMensal){

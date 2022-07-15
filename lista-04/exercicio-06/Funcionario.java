@@ -2,10 +2,6 @@ public abstract class Funcionario{
     private String nome;
     private Integer codigo;
 
-    public Funcionario(){
-
-    }
-
     public void setNome(String nome){
         this.nome = nome;
     }

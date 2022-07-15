@@ -1,4 +1,4 @@
-public class OperaDiarista{
+public class OperaDiarista extends Funcionario{
     private Double salarioDia;
     private Integer diasTrabalhados;
 
@@ -12,7 +12,7 @@ public class OperaDiarista{
     }
 
     public Double getSalarioDia(){
-        return nome;
+        return salarioDia;
     }
 
     public void setDiasTrabalhados(Integer diasTrabalhados){
